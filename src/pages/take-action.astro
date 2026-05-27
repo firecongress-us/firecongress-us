@@ -1,0 +1,93 @@
+---
+import Base from '../layouts/Base.astro';
+
+const resources = [
+  {
+    category: 'Find Your Representatives',
+    links: [
+      { label: 'House.gov — Find Your Representative', url: 'https://www.house.gov/representatives/find-your-representative' },
+      { label: 'Senate.gov — Find Your Senators', url: 'https://www.senate.gov/senators/senators-contact.htm' },
+      { label: 'USA.gov — Contact Elected Officials', url: 'https://www.usa.gov/elected-officials' },
+    ]
+  },
+  {
+    category: 'Register & Check Your Registration',
+    links: [
+      { label: 'Vote.gov — Register to Vote', url: 'https://vote.gov' },
+      { label: 'Vote411.org — Voter Guide', url: 'https://www.vote411.org' },
+      { label: 'BallotReady — Your Full Ballot', url: 'https://www.ballotready.org' },
+    ]
+  },
+  {
+    category: 'Research Your Representatives',
+    links: [
+      { label: 'OpenSecrets — Campaign Finance', url: 'https://www.opensecrets.org' },
+      { label: 'VoteSmart — Voting Records & Ratings', url: 'https://justfacts.votesmart.org' },
+      { label: 'GovTrack — Bill Tracking', url: 'https://www.govtrack.us' },
+      { label: 'Congress.gov — Official Record', url: 'https://congress.gov' },
+    ]
+  },
+  {
+    category: 'Make Your Voice Heard',
+    links: [
+      { label: 'Resistbot — Text Your Reps in 2 Minutes', url: 'https://resist.bot' },
+      { label: '5 Calls — Script-Assisted Phone Calls', url: 'https://5calls.org' },
+    ]
+  },
+];
+---
+
+<Base title="Take Action" description="Tools and resources to hold your representatives accountable and make your vote count.">
+  <div class="bg-civic-red text-white py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-black mb-2">Take Action</h1>
+      <p class="text-red-100">Knowing isn't enough. Here's how to actually use the power you already have.</p>
+    </div>
+  </div>
+
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <div class="bg-navy text-white rounded-lg p-8 mb-12 text-center">
+      <h2 class="text-2xl font-black mb-3">The Most Powerful Thing You Can Do</h2>
+      <p class="text-gray-300 text-lg mb-6 max-w-xl mx-auto">
+        Vote in every election. Not just presidential — primaries, midterms, local races. That's where incumbents
+        get comfortable and where your vote has the most impact.
+      </p>
+      <a href="https://vote.gov" target="_blank" rel="noopener noreferrer"
+         class="inline-block bg-civic-red hover:bg-red-600 text-white font-bold px-8 py-4 rounded text-lg transition-colors">
+        Check Your Registration →
+      </a>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      {resources.map(section => (
+        <div class="bg-white rounded-lg border border-gray-200 p-6">
+          <h3 class="font-bold text-navy mb-4 text-sm uppercase tracking-wider">{section.category}</h3>
+          <ul class="space-y-3">
+            {section.links.map(link => (
+              <li>
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center gap-2 text-sm text-gray-700 hover:text-civic-red transition-colors group"
+                >
+                  <span class="text-civic-red group-hover:translate-x-0.5 transition-transform">→</span>
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-12 bg-gray-50 rounded-lg p-6 border border-gray-200 text-center">
+      <h3 class="font-bold text-navy mb-2">Term Limits Won't Save Us — Voting Will</h3>
+      <p class="text-gray-600 text-sm leading-relaxed max-w-2xl mx-auto">
+        Term limits sound appealing, but they require a constitutional amendment that Congress would have to pass
+        themselves. That's not happening. What we already have — elections — works if people use them. The goal
+        of this site is to make that easier.
+      </p>
+    </div>
+  </div>
+</Base>

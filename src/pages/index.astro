@@ -1,0 +1,133 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+const recentPosts = allPosts.slice(0, 3);
+const demCount = allPosts.filter(p => p.data.party === 'D').length;
+const repCount = allPosts.filter(p => p.data.party === 'R').length;
+const total = allPosts.length;
+const demPct = total > 0 ? Math.round((demCount / total) * 100) : 50;
+const repPct = total > 0 ? Math.round((repCount / total) * 100) : 50;
+---
+
+<Base title="Home">
+  <!-- Hero -->
+  <section class="bg-navy text-white py-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-block bg-civic-red text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded mb-6">
+        Non-Partisan · Fully Sourced
+      </div>
+      <h1 class="text-5xl md:text-6xl font-black leading-tight mb-6">
+        You hired them.<br />
+        <span class="text-civic-red">You can fire them.</span>
+      </h1>
+      <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+        Every election is your chance to hold Congress accountable. We research who's really
+        working for you — and who's working for corporations and lobbyists.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/blog" class="bg-civic-red hover:bg-red-700 text-white font-bold px-8 py-4 rounded text-lg transition-colors">
+          Read the Reports →
+        </a>
+        <a href="/about" class="border border-gray-500 hover:border-white text-gray-300 hover:text-white font-medium px-8 py-4 rounded text-lg transition-colors">
+          How We Work
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-16 px-4 bg-white border-b border-gray-200">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold text-navy text-center mb-10">How It Works</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        {[
+          { step: '01', title: 'We Research', body: 'Using public records, campaign finance data, and voting history to document what your representatives actually do.' },
+          { step: '02', title: 'We Publish', body: 'Every claim is sourced. We cover both parties equally — 50% Democrats, 50% Republicans. No partisan agenda.' },
+          { step: '03', title: 'You Vote', body: "Armed with facts, you decide who stays and who goes. That's the whole point of elections." },
+        ].map(item => (
+          <div class="text-center">
+            <div class="text-4xl font-black text-civic-red mb-3">{item.step}</div>
+            <h3 class="text-lg font-bold text-navy mb-2">{item.title}</h3>
+            <p class="text-sm text-gray-600 leading-relaxed">{item.body}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Accountability Meter -->
+  {total > 0 && (
+    <section class="py-12 px-4 bg-gray-50 border-b border-gray-200">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="text-lg font-bold text-navy mb-2">Accountability Balance</h2>
+        <p class="text-sm text-gray-500 mb-6">
+          {total} reports published — {demCount} Democrats, {repCount} Republicans
+        </p>
+        <div class="flex rounded-full overflow-hidden h-6 shadow-inner">
+          <div
+            class="bg-blue-600 flex items-center justify-center text-xs font-bold text-white transition-all"
+            style={`width: ${demPct}%`}
+          >
+            {demPct > 10 ? `D ${demPct}%` : ''}
+          </div>
+          <div
+            class="bg-civic-red flex items-center justify-center text-xs font-bold text-white transition-all"
+            style={`width: ${repPct}%`}
+          >
+            {repPct > 10 ? `R ${repPct}%` : ''}
+          </div>
+        </div>
+        <p class="text-xs text-gray-400 mt-3">Goal: 50/50 split between parties</p>
+      </div>
+    </section>
+  )}
+
+  <!-- Recent Posts -->
+  <section class="py-16 px-4">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-2xl font-bold text-navy">Latest Reports</h2>
+        <a href="/blog" class="text-sm font-medium text-civic-red hover:underline">View all →</a>
+      </div>
+      {recentPosts.length > 0 ? (
+        <div class="grid md:grid-cols-3 gap-6">
+          {recentPosts.map(post => (
+            <PostCard
+              title={post.data.title}
+              summary={post.data.summary}
+              date={post.data.date}
+              party={post.data.party}
+              state={post.data.state}
+              chamber={post.data.chamber}
+              slug={post.id}
+              tags={post.data.tags}
+            />
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16 text-gray-400">
+          <p class="text-lg font-medium mb-2">First report coming soon.</p>
+          <p class="text-sm">Check back shortly — research takes time when you do it right.</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-civic-red text-white py-16 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-black mb-4">Ready to use your vote?</h2>
+      <p class="text-red-100 mb-8 text-lg">
+        Find your representatives, check your registration, and make sure you're ready for the next election.
+      </p>
+      <a href="/take-action" class="bg-white text-civic-red font-bold px-8 py-4 rounded text-lg hover:bg-gray-100 transition-colors inline-block">
+        Take Action Now →
+      </a>
+    </div>
+  </section>
+</Base>

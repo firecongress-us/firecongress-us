@@ -1,0 +1,37 @@
+---
+import PartyBadge from './PartyBadge.astro';
+
+interface Props {
+  title: string;
+  summary: string;
+  date: Date;
+  party: 'D' | 'R';
+  state: string;
+  chamber: 'House' | 'Senate';
+  slug: string;
+  tags: string[];
+}
+
+const { title, summary, date, party, state, chamber, slug, tags } = Astro.props;
+const formattedDate = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+---
+
+<article class="bg-white rounded-lg border border-gray-200 hover:border-civic-red hover:shadow-md transition-all group">
+  <a href={`/blog/${slug}`} class="block p-6">
+    <div class="flex items-center gap-2 mb-3">
+      <PartyBadge party={party} size="sm" />
+      <span class="text-xs text-gray-400">{chamber} · {state} · {formattedDate}</span>
+    </div>
+    <h2 class="text-lg font-bold text-navy group-hover:text-civic-red transition-colors leading-snug mb-2">
+      {title}
+    </h2>
+    <p class="text-sm text-gray-600 leading-relaxed mb-4">{summary}</p>
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-1">
+        {tags.slice(0, 3).map(tag => (
+          <span class="text-xs text-gray-400">#{tag}</span>
+        ))}
+      </div>
+    )}
+  </a>
+</article>

@@ -1,0 +1,21 @@
+---
+interface Props {
+  party: 'D' | 'R';
+  size?: 'sm' | 'md';
+}
+const { party, size = 'md' } = Astro.props;
+const isDem = party === 'D';
+const label = isDem ? 'Democrat' : 'Republican';
+const sizeClasses = size === 'sm' ? 'text-xs px-2 py-0.5' : 'text-sm px-3 py-1';
+---
+
+<span
+  class={`inline-flex items-center font-bold rounded-full ${sizeClasses} ${
+    isDem
+      ? 'bg-blue-100 text-blue-800'
+      : 'bg-red-100 text-red-800'
+  }`}
+  title={label}
+>
+  {party}
+</span>

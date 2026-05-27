@@ -1,0 +1,44 @@
+---
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/blog', label: 'Accountability Reports' },
+  { href: '/about', label: 'About' },
+  { href: '/take-action', label: 'Take Action' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="bg-navy text-white shadow-md sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2 group">
+      <span class="text-civic-red font-black text-2xl tracking-tight group-hover:text-gold transition-colors">
+        FIRE
+      </span>
+      <span class="font-bold text-xl tracking-tight">CONGRESS</span>
+      <span class="text-gray-400 text-sm font-medium">.us</span>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-6">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class={`text-sm font-medium transition-colors ${
+            currentPath === link.href
+              ? 'text-gold'
+              : 'text-gray-300 hover:text-white'
+          }`}
+        >
+          {link.label}
+        </a>
+      ))}
+    </nav>
+
+    <a
+      href="/take-action"
+      class="hidden md:inline-flex items-center gap-2 bg-civic-red hover:bg-red-700 text-white text-sm font-bold px-4 py-2 rounded transition-colors"
+    >
+      Vote Them Out →
+    </a>
+  </div>
+</header>

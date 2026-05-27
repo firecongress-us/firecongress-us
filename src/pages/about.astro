@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="About" description="Why FireCongress.us exists and how we work.">
+  <div class="bg-navy text-white py-12 px-4">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl font-black mb-2">About FireCongress.us</h1>
+      <p class="text-gray-300">Non-partisan. Fully sourced. No agenda except accountability.</p>
+    </div>
+  </div>
+
+  <div class="max-w-3xl mx-auto px-4 py-12 space-y-10">
+    <section>
+      <h2 class="text-2xl font-bold text-navy mb-4">The Premise</h2>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        Congress doesn't work for you. That's not a partisan statement — it's documented. Members of both parties
+        routinely vote in ways that benefit their major donors, not their constituents. They serve for decades
+        regardless of performance, protected by incumbency, gerrymandering, and the assumption that elections
+        don't really change things.
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        But they do. You hired every single one of them. And you can fire them — every two years for the House,
+        every six for the Senate. That power is real, and it's yours to use.
+      </p>
+      <p class="text-gray-700 leading-relaxed">
+        FireCongress.us exists to make that decision easier by giving you documented, sourced facts about what
+        your representatives actually do — not what they say, not what their ads claim.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold text-navy mb-4">How We Research</h2>
+      <ul class="space-y-4">
+        {[
+          {
+            title: 'Campaign Finance (OpenSecrets.org)',
+            body: 'We check who\'s writing the checks. Top donors, industry totals, PAC money — all public record.'
+          },
+          {
+            title: 'Voting Records (ProPublica Congress API)',
+            body: 'How often do they show up? How do they actually vote? Missed votes, party-line rates, specific bills.'
+          },
+          {
+            title: 'Positions & Ratings (VoteSmart.org)',
+            body: 'Interest group ratings across the political spectrum. Do they vote the way they campaign?'
+          },
+          {
+            title: 'News & Investigations',
+            body: 'Recent reporting from major outlets and investigative journalism. No anonymous sources — everything cited.'
+          },
+        ].map(item => (
+          <li class="flex gap-4">
+            <span class="text-civic-red font-black text-lg mt-0.5">→</span>
+            <div>
+              <h3 class="font-bold text-navy">{item.title}</h3>
+              <p class="text-gray-600 text-sm leading-relaxed">{item.body}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold text-navy mb-4">Our Commitment to Balance</h2>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        We maintain a strict 50/50 split between Democrats and Republicans. Corporate corruption, donor capture,
+        and failure to represent constituents are not partisan problems — they exist on both sides, and we report
+        on both sides equally.
+      </p>
+      <p class="text-gray-700 leading-relaxed">
+        If you think we're skewing in any direction, look at the Accountability Balance meter on the homepage.
+        It shows the current split in real time. If it drifts, the next report corrects it.
+      </p>
+    </section>
+
+    <section class="bg-gray-50 rounded-lg p-6 border border-gray-200">
+      <h2 class="text-lg font-bold text-navy mb-2">A Note on AI Assistance</h2>
+      <p class="text-gray-600 text-sm leading-relaxed">
+        Research drafts for this site are assisted by AI (Claude). Every claim is verified against primary sources
+        before publication. If you find a factual error or a broken source link, the methodology is clear: the
+        primary sources listed at the bottom of each article are what matter. We welcome corrections.
+      </p>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,41 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-navy text-gray-300 mt-auto">
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <div class="flex items-center gap-1 mb-3">
+          <span class="text-civic-red font-black text-xl">FIRE</span>
+          <span class="text-white font-bold text-xl">CONGRESS</span>
+          <span class="text-gray-400 text-sm">.us</span>
+        </div>
+        <p class="text-sm text-gray-400 leading-relaxed">
+          Non-partisan accountability reporting on the people you elected to represent you.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Site</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="/blog" class="hover:text-white transition-colors">Accountability Reports</a></li>
+          <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+          <li><a href="/take-action" class="hover:text-white transition-colors">Take Action</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Sources We Use</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="https://www.opensecrets.org" target="_blank" rel="noopener" class="hover:text-white transition-colors">OpenSecrets.org</a></li>
+          <li><a href="https://projects.propublica.org/api-docs/congress-api/" target="_blank" rel="noopener" class="hover:text-white transition-colors">ProPublica Congress API</a></li>
+          <li><a href="https://justfacts.votesmart.org" target="_blank" rel="noopener" class="hover:text-white transition-colors">VoteSmart.org</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+      <p>© {year} FireCongress.us — All content sourced and cited. Non-partisan.</p>
+      <p>Every vote is an election. Use yours.</p>
+    </div>
+  </div>
+</footer>

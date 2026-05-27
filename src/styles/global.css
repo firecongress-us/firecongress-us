@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-civic-red: #B91C1C;
+  --color-navy: #1E3A5F;
+  --color-gold: #D97706;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+  }
+}
