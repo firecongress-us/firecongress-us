@@ -1,0 +1,17 @@
+{
+    "permissions": {
+      "allow": [
+        "Bash(git *)",
+        "Bash(gh *)",
+        "Bash(mkdir *)",
+        "Bash(date *)",
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "WebSearch",
+        "WebFetch"
+      ]
+    }
+  }
