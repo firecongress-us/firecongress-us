@@ -1,7 +1,7 @@
 {
-  "next_party": "R",
-  "covered": [],
-  "last_run": null,
+  "next_party": "D",
+  "covered": ["Cory Mills"],
+  "last_run": "2026-05-26",
   "total_dem": 0,
-  "total_rep": 0
+  "total_rep": 1
 }
