@@ -20,6 +20,8 @@ sources:
     label: Quiver Quantitative — Cory Mills introduces SAFE Services Act, December 2024
   - url: https://www.aol.com/news/ethics-watchdog-says-congressman-cory-211953517.html
     label: AOL News — Ethics watchdog details Mills investigation findings
+  - url: https://ethics.house.gov/wp-content/uploads/2025/03/OCC-Report-and-Findings.pdf
+  - label: OFFICE OF CONGRESSIONAL ETHICS - UNITED STATES HOUSE OF REPRESENTATIVES - Review No. 24-2323
 summary: "Rep. Cory Mills (R-FL-7) owned defense companies that collected close to $1M in federal contracts while he sat on the House Armed Services Committee and voted on defense bills."
 ---
 
