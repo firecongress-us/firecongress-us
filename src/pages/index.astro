@@ -2,6 +2,8 @@
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import { getCollection } from 'astro:content';
+import TenureBar from '../components/TenureBar.astro';
+import tenureData from '../../content-agent/congress-tenure.json';
 
 const allPosts = (await getCollection('blog')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -115,6 +117,19 @@ const repPct = total > 0 ? Math.round((repCount / total) * 100) : 50;
           <p class="text-sm">Check back shortly — research takes time when you do it right.</p>
         </div>
       )}
+    </div>
+  </section>
+
+  <!-- Incumbency Watch -->
+  <section class="py-16 px-4 bg-gray-50 border-y border-gray-200">
+    <div class="max-w-3xl mx-auto">
+      <div class="mb-8">
+        <h2 class="text-2xl font-bold text-navy mb-3">The Incumbency Problem</h2>
+        <p class="text-gray-600 leading-relaxed">
+          The longer someone serves in Congress, the more donor relationships they accumulate — and the harder it becomes to know whose interests they're actually representing. The chart below shows the longest-serving current members of Congress. These aren't villains by default. But tenure creates dependency, and dependency creates conflicts. The power to change this already exists. It's called an election.
+        </p>
+      </div>
+      <TenureBar members={tenureData.members} updated={tenureData.updated} />
     </div>
   </section>
 

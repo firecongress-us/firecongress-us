@@ -1,0 +1,62 @@
+---
+interface Member {
+  name: string;
+  party: 'D' | 'R';
+  state: string;
+  chamber: 'House' | 'Senate';
+  since: number;
+}
+
+interface Props {
+  members: Member[];
+  updated: string;
+}
+
+const { members, updated } = Astro.props;
+
+const currentYear = new Date().getFullYear();
+const ranked = [...members]
+  .map(m => ({ ...m, years: currentYear - m.since }))
+  .sort((a, b) => b.years - a.years);
+
+const maxYears = ranked[0]?.years ?? 1;
+---
+
+<div class="flex flex-col h-full">
+  <div class="bg-navy px-4 py-3 shrink-0">
+    <h2 class="text-white font-bold text-sm uppercase tracking-wider">Incumbency Watch</h2>
+    <p class="text-gray-400 text-xs mt-0.5">Longest-serving current members</p>
+  </div>
+
+  <div class="flex-1 overflow-y-auto divide-y divide-gray-100">
+    {ranked.map((member, i) => {
+      const pct = Math.round((member.years / maxYears) * 100);
+      const isDem = member.party === 'D';
+      return (
+        <div class="px-3 py-2 hover:bg-gray-50 transition-colors">
+          <div class="flex items-center justify-between gap-2 mb-1">
+            <span class="text-xs font-medium text-gray-800 truncate leading-tight">
+              {member.name}
+            </span>
+            <span class={`text-xs font-bold shrink-0 ${isDem ? 'text-blue-600' : 'text-civic-red'}`}>
+              {member.party}-{member.state}
+            </span>
+          </div>
+          <div class="flex items-center gap-2">
+            <div class="flex-1 bg-gray-100 rounded-full h-2 overflow-hidden">
+              <div
+                class={`h-2 rounded-full ${isDem ? 'bg-blue-500' : 'bg-civic-red'}`}
+                style={`width: ${pct}%`}
+              />
+            </div>
+            <span class="text-xs text-gray-400 shrink-0 w-8 text-right">{member.years}y</span>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+
+  <div class="px-4 py-2 border-t border-gray-100 bg-gray-50">
+    <p class="text-xs text-gray-400">Updated {updated}</p>
+  </div>
+</div>
