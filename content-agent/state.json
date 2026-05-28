@@ -1,7 +1,7 @@
 {
-  "next_party": "D",
-  "covered": ["Cory Mills"],
+  "next_party": "R",
+  "covered": ["Cory Mills", "Henry Cuellar"],
   "last_run": "2026-05-26",
-  "total_dem": 0,
+  "total_dem": 1,
   "total_rep": 1
 }
