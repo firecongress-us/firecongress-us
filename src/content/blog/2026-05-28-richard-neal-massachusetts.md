@@ -43,7 +43,7 @@ The loophole remained intact.
 
 ## Tax Filing and the Intuit Connection
 
-A separate documented pattern emerged in 2019 around free tax filing. ProPublica reported that as the House Ways and Means Committee was advancing the Taxpayer First Act — which included a provision making it illegal for the IRS to create its own free online filing system — Neal had received $16,000 in contributions from Intuit (maker of TurboTax) and H&R Block. Intuit alone spent $2.6 million on lobbying in 2018, with the IRS filing arrangement among its stated lobbying priorities. The industry-run free filing programs exist but are rarely used: ProPublica reported that while 70% of American taxpayers are eligible to file for free through those programs, only 3% did so.
+A separate documented pattern emerged in 2019 around free tax filing. ProPublica reported that as the House Ways and Means Committee was advancing the Taxpayer First Act, an early version of the bill included a provision that would have made it illegal for the IRS to create its own free online filing system — permanently locking Americans into industry-run programs. That specific provision was removed before the bill passed into law, but the attempt drew attention to Neal's financial ties to the industry pushing for it: he had received $16,000 in contributions from Intuit (maker of TurboTax) and H&R Block. Intuit alone spent $2.6 million on lobbying in 2018, with the IRS filing arrangement among its stated lobbying priorities. The industry-run free filing programs exist but are rarely used: ProPublica reported that while 70% of American taxpayers are eligible to file for free through those programs, only 3% did so.
 
 ## The Son's Lobbying Firm
 
