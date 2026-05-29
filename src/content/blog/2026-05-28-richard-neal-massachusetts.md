@@ -49,7 +49,7 @@ A separate documented pattern emerged in 2019 around free tax filing. ProPublica
 
 In October 2024, Politico published an investigation finding that Brendan Neal — the congressman's son — had launched a one-person public affairs firm offering "political advice, lobbying and strategic communications" in 2020, approximately one year after his father became the ranking member of Ways and Means. Since then, Brendan Neal received $196,340 from his father's campaign committee for "strategic consulting services."
 
-According to Politico's reporting, Brendan Neal also received $20,000 from Van Heuvelen Strategies, a lobbying firm with active interests in at least six issues before the Ways and Means Committee, and $252,500 from a client of a lobbyist who was simultaneously working for Blackstone — a top donor to Richard Neal's campaign — to preserve the carried interest loophole.
+According to Politico's reporting, Brendan Neal also received at least $20,000 from Van Heuvelen Strategies, a lobbying firm with active interests in at least six issues before the Ways and Means Committee, and $252,500 from a client of a lobbyist who was simultaneously working for Blackstone — a top donor to Richard Neal's campaign — to preserve the carried interest loophole.
 
 Richard Neal and Brendan Neal both denied any impropriety. Neal's office stated that Brendan "has never lobbied Congressman Neal's office or Ways and Means Committee." Neal's political opponent at the time called for a House Ethics Committee investigation; as of this writing, no formal investigation was announced.
 
