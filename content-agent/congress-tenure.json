@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-05-31",
   "note": "Seed data — refreshed by content agent on each run. Years in office computed at build time from 'since'. 'since' = first year of continuous congressional service (counting across chamber switches).",
   "members": [
     { "name": "Chuck Grassley",   "party": "R", "state": "IA", "chamber": "Senate", "since": 1975 },
