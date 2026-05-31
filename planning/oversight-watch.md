@@ -1,53 +1,51 @@
-# Idea: Oversight Watch
+# Idea: Checks and Balances Monitor
 
-## The Problem
+## The Concept
 
-The current president is widely seen as pushing the boundaries of executive authority, and Congress is largely not stepping up to check it. This is a legitimate congressional accountability story — "Congress isn't doing its job" fits directly with FireCongress.us's premise.
+A constitutional health tracker — not a political scorecard. The question is never "is this person bad?" but "is the system working as designed?" Three branches, all monitored. When the machinery of checks and balances breaks down, document it regardless of which party is responsible.
 
-## The Challenge
+This is distinct from FireCongress.us, which is specifically about replacing bad members through elections. A checks and balances monitor is a real-time institutional watchdog — useful even in off-election years, and applicable to all three branches.
 
-This issue is almost entirely partisan right now. Any coverage will disproportionately target Republican members of Congress for failing to check a Republican president. Even with a perfectly symmetric methodology, the volume of coverage will be lopsided under the current administration, and the site will read as partisan to some audiences.
+## Why a Separate Site
 
-## The Approach (When We're Ready)
+FireCongress.us has a clean, specific mission: donor conflicts, corporate capture, vote to replace them. Mixing in constitutional oversight analysis dilutes that. A separate site with its own identity and methodology keeps both sharper.
 
-Frame it as a **congressional accountability issue, not a presidential one.** The subject is always the member of Congress and what they did or didn't do — not the president.
+## The Non-Partisan Defense
 
-### Objective Triggers (not editorial opinion)
+The three-branch scope is inherently structural — it's not about who's doing wrong, it's about whether the constitutional machinery is functioning. Tracking executive overreach *and* congressional abdication *and* judicial independence issues means no single branch or party dominates the narrative. You're just asking: is the system working as designed?
 
-Coverage would only be prompted by formal, documented mechanisms:
-- Federal court rulings that cite constitutional overreach
+Those who call it biased can't be fully satisfied — but a published methodology written before it's applied, covering all three branches symmetrically, is the strongest available defense.
+
+## What Gets Covered
+
+Only events with formal, documented triggers — never editorial judgment calls:
+
+- Federal court rulings citing constitutional overreach (any branch)
 - GAO findings
 - Inspector General reports
 - Congressional Research Service memos
-- Unanswered congressional subpoenas
-- Failed oversight votes
+- Contempt votes, unanswered subpoenas
+- Judicial independence incidents (recusal failures, threats to court independence)
+- Executive branch refusals to comply with legislation or court orders
 
-### The Question to Ask
+For each trigger: what happened, which branch or official was involved, what the formal response was from the other branches, and what the constitutional mechanism at stake is.
 
-"When [formal trigger] occurred, what formal action did this member of Congress take?"
+## The Difficulty
 
-That question is administration-agnostic and applies equally regardless of which party holds the White House.
+The donor-conflict reporting works because the data is concrete — dollar amounts, votes, dates. Constitutional violations are often more interpretive. Discipline is required: only cover things where a formal institution (a court, an IG, the GAO) has already made a finding. Never lead with opinion.
 
-### Symmetry Commitment
+## Relationship to FireCongress.us
 
-The methodology must be written before it's applied, and published alongside the coverage. Rules written before application are evidence of good faith. The same metrics would apply to a Democratic president — and we'd apply them just as hard.
+Separate domain, separate site. Could link between them — congressional members who appear in both (failing oversight duties AND taking donor money) would be a natural cross-reference.
 
-## What to Build
+## Status
 
-A separate **Oversight Watch** section (not mixed into the donor-conflict posts) with:
-- A clearly documented methodology page explaining the triggers and scoring
-- Per-member scorecards: did they act, abstain, or actively obstruct oversight?
-- Coverage anchored to specific formal events, not general political vibes
-
-## Why We're Waiting
-
-- The current donor-conflict reporting is clean and working — don't dilute it
-- The optics problem is real and we're not ready to manage it
-- Methodology should be written and stress-tested before publishing
+Parked. The idea is sound but building it right takes time. FireCongress.us comes first.
 
 ## Next Steps When Ready
 
-1. Draft the methodology document — define every trigger type and how members are scored
-2. Stress-test it against historical cases from both parties to confirm it's genuinely symmetric
-3. Decide whether this is a section within firecongress.us or a separate page/feature
-4. Build the scoring system and populate with current data
+1. Choose a domain and basic identity
+2. Draft the methodology document — define every trigger type, how events are categorized, what "response" means for each branch
+3. Stress-test against historical cases from multiple administrations to confirm genuine symmetry
+4. Decide on format: blog-style event log, live scorecard, or both
+5. Consider whether an AI agent could monitor formal sources (GAO, IG reports, PACER) on a schedule — similar architecture to FireCongress
