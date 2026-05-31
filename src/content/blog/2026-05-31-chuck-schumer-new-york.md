@@ -72,7 +72,7 @@ The National Institutes of Health faced a $280 million reduction under the same 
 
 A second fiscal standoff began October 1, 2025, when Congress failed to pass appropriations bills. Senate Democrats sought to use the funding deadline to secure an extension of expanded Affordable Care Act subsidies — premium tax credits then used by approximately **24 million Americans** — that were set to expire.
 
-The shutdown ran for **43 days**. It ended November 12, 2025, when the Senate voted 60 to 40 on a bipartisan deal to reopen the government. Schumer did not vote for the final measure. Seven Democratic senators — including Dick Durbin, Jeanne Shaheen, John Fetterman, and others — broke with the caucus to support the Republican-led agreement.
+The shutdown ran for **43 days**. It ended November 12, 2025, after the Senate voted 60 to 40 on a bipartisan deal to reopen the government. Schumer did not vote for the final measure. Seven Democratic senators — including Dick Durbin, Jeanne Shaheen, John Fetterman, and others — broke with the caucus to support the Republican-led agreement.
 
 The final deal did not include the ACA subsidy extension. Republicans agreed only to hold a Senate floor vote on the subsidies in December 2025, with no commitment to passage.
 
@@ -84,4 +84,4 @@ New York is among the states with the largest concentrations of Housing Choice V
 
 ## What You Can Do
 
-Sen. Schumer is up for re-election in **2028**. To contact his Washington office directly, call (202) 224-6542 or write through schumer.senate.gov. To contact your own senators about housing funding, ACA subsidies, or campaign finance reform, visit our [take action page](/take-action).
+Sen. Schumer(who has been in his curren position for over 27 years) is up for re-election in **2028**. To contact his Washington office directly, call (202) 224-6542 or write through schumer.senate.gov. To contact your own senators about housing funding, ACA subsidies, or campaign finance reform, visit our [take action page](/take-action).
