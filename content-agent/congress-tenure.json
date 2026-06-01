@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31",
+  "updated": "2026-06-01",
   "note": "Top 50 currently serving members by continuous congressional service. 'since' = first year of continuous congressional service (counting across chamber switches). Sources: Quorum.us 2025 ranking, Wikipedia House/Senate seniority pages, Senate.gov longest-serving senators.",
   "members": [
     { "name": "Chuck Grassley",      "party": "R", "state": "IA", "chamber": "Senate", "since": 1975 },
