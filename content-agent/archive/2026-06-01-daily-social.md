@@ -24,11 +24,13 @@ Both parties' top congressional super PACs collected $119M from dark money group
 
 ### Facebook
 
-The four biggest congressional super PACs — two Democratic, two Republican — raised a combined $492 million between January 2025 and March 2026. According to an analysis by Issue One, $119 million of that total, roughly 24%, came not from disclosed donors but from affiliated "dark money" nonprofits that are legally exempt from identifying who funds them.
+The four biggest congressional super PACs, two Democratic and two Republican, raised a combined $492 million between January 2025 and March 2026. According to an analysis by Issue One, $119 million of that total, roughly 24%, came not from disclosed donors but from affiliated "dark money" nonprofits that are legally exempt from identifying who funds them.
 
-This isn't a partisan story. Senate Majority PAC (Democratic) and Senate Leadership Fund (Republican) both received tens of millions from their respective dark money affiliates. Congressional Leadership Fund and House Majority PAC did the same. Nearly $48 million in dark money contributions arrived in the first quarter of 2026 alone — and that pace is accelerating as the midterms approach.
+https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/
 
-This is how congressional elections are increasingly funded: through layers of nonprofits that route money in ways voters can't trace. The people writing these checks are shaping who runs, who wins, and what gets passed — and you're not entitled to know who they are. At FireCongress.us, we think accountability starts with voters who demand it. See how long your representatives have been in office and who helped put them there. Visit firecongress.us [LINK] or go directly to our /take-action page.
+Senate Majority PAC (Democratic) and Senate Leadership Fund (Republican) both received tens of millions from their respective dark money affiliates. Congressional Leadership Fund and House Majority PAC did the same. Nearly $48 million in dark money contributions arrived in the first quarter of 2026 alone and that pace is accelerating as the midterms approach.
+
+This is how congressional elections are increasingly funded: through layers of nonprofits that route money in ways voters can't trace. The people writing these checks are shaping who runs, who wins, and what gets passed and we don't know who they are. At FireCongress.us, we think accountability starts with voters who demand it. See how long your representatives have been in office and who helped put them there. Visit firecongress.us https://www.firecongress.us
 
 ---
 
