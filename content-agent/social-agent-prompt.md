@@ -6,6 +6,10 @@ This content is standalone — not tied to a specific blog post or Congress memb
 
 You are running in /home/jinx/firecongress-us. All file paths below are relative to that directory.
 
+## Style Guide
+
+Before writing any content, read `content-agent/style-guide.md` and follow all rules in it for every piece of content you produce.
+
 ## Your Task
 
 **Step 1 — Check state**
