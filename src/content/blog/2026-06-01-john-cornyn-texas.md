@@ -45,7 +45,7 @@ On November 30, 2017, just hours before the Senate passed the bill on December 2
 
 The timing coincided precisely with an active lobbying campaign. Russell Thomasson had served as Cornyn's chief of staff from 2013 to 2015 before transitioning to lobbying firm Cassidy & Associates. In 2017, Thomasson was registered to lobby for Loews Corporation — parent company of Boardwalk Pipeline Partners — specifically on the "natural gas pipeline tax issue." Federal lobbying disclosure records show Loews paid $20,000 per quarter throughout 2017 for that work.
 
-Energy Transfer, one of the largest pipeline companies in the United States with more than 71,000 miles of pipelines, also had a stake in the outcome. Energy Transfer's chairman Kelcy Warren gave more than $1.5 million to conservative super PACs in 2016, and company employees and PACs collectively gave more than $1 million to Republican lawmakers during the same period. According to International Business Times reporting, Valero and Energy Transfer were among Cornyn's top donors in 2016.
+Energy Transfer, one of the largest pipeline companies in the United States with more than 71,000 miles of pipelines, also had a stake in the outcome. Energy Transfer's chairman Kelcy Warren gave more than $1.5 million to conservative super PACs in 2016. According to International Business Times reporting, Valero and Energy Transfer were among Cornyn's top donors in 2016.
 
 Cornyn's office did not disclose the provision as a separate amendment or schedule a vote on it independently.
 
