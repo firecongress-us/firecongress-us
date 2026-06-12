@@ -50,7 +50,6 @@
     { "name": "John Boozman",        "party": "R", "state": "AR", "chamber": "Senate", "since": 2001 },
     { "name": "John Cornyn",         "party": "R", "state": "TX", "chamber": "Senate", "since": 2002 },
     { "name": "Lisa Murkowski",      "party": "R", "state": "AK", "chamber": "Senate", "since": 2002 },
-    { "name": "Tom Cole",            "party": "R", "state": "OK", "chamber": "House",  "since": 2003 },
-    { "name": "David Scott",         "party": "D", "state": "GA", "chamber": "House",  "since": 2003 }
+    { "name": "Tom Cole",            "party": "R", "state": "OK", "chamber": "House",  "since": 2003 }
   ]
 }
