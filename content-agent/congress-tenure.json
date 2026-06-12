@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04",
+  "updated": "2026-06-08",
   "note": "Top 50 currently serving members by continuous congressional service. 'since' = first year of continuous congressional service (counting across chamber switches). Sources: Quorum.us 2025 ranking, Wikipedia House/Senate seniority pages, Senate.gov longest-serving senators.",
   "members": [
     { "name": "Chuck Grassley",      "party": "R", "state": "IA", "chamber": "Senate", "since": 1975 },
@@ -50,7 +50,6 @@
     { "name": "John Boozman",        "party": "R", "state": "AR", "chamber": "Senate", "since": 2001 },
     { "name": "John Cornyn",         "party": "R", "state": "TX", "chamber": "Senate", "since": 2002 },
     { "name": "Lisa Murkowski",      "party": "R", "state": "AK", "chamber": "Senate", "since": 2002 },
-    { "name": "Tom Cole",            "party": "R", "state": "OK", "chamber": "House",  "since": 2003 },
-    { "name": "David Scott",         "party": "D", "state": "GA", "chamber": "House",  "since": 2003 }
+    { "name": "Tom Cole",            "party": "R", "state": "OK", "chamber": "House",  "since": 2003 }
   ]
 }
