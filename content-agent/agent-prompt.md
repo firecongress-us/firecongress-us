@@ -51,9 +51,9 @@ chamber: House
 tags: [tag1, tag2, tag3]
 sources:
   - url: https://...
-    label: OpenSecrets — [Name] campaign finance profile
+    label: "OpenSecrets — [Name] campaign finance profile"
   - url: https://...
-    label: [Source] — [description]
+    label: "[Source] — [description]"
 summary: "One sentence naming the person, the pattern, and the key dollar figure or vote. Under 200 characters."
 ---
 ```
@@ -141,3 +141,4 @@ gh pr create \
 - Do not fabricate or guess any fact — if you can't verify it, omit it and note it in the PR body
 - Maintain strict 50/50 D/R balance — never cover the same party twice in a row
 - Keep prose neutral — state facts, let readers draw conclusions
+- Always wrap `label:` values in double quotes — any colon inside an unquoted YAML string breaks the build

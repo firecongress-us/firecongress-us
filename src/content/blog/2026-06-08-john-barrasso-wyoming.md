@@ -17,7 +17,7 @@ sources:
   - url: https://www.boozman.senate.gov/public/index.cfm/2026/2/boozman-barrasso-introduce-the-no-climate-treaties-act
     label: Sen. Boozman Press Release — Barrasso co-sponsors No Climate Treaties Act (S.3713), January 28, 2026
   - url: https://wyofile.com/medicaid-cuts-will-shrink-wyomings-economy-by-140m-over-five-years-study-finds/
-    label: WyoFile — REMI study: Medicaid cuts shrink Wyoming economy $140M over 5 years, 12,000 residents lose coverage
+    label: "WyoFile — REMI study: Medicaid cuts shrink Wyoming economy $140M over 5 years, 12,000 residents lose coverage"
   - url: https://www.evergreenaction.com/blog/senate-gops-updated-megabill-is-still-a-disaster-for-affordability-jobs-and-clean-energy
     label: Evergreen Action — One Big Beautiful Bill projected to cause 900,000 job losses nationally by 2032; raise household energy costs $110-$400/year
 summary: "Sen. John Barrasso (R-WY) took $781,381 from the oil and gas industry in 2024, then passed legislation repealing the EV tax credit and expanding oil extraction subsidies, while voting for Medicaid cuts that a state study found will cost Wyoming 12,000 health coverage slots."
