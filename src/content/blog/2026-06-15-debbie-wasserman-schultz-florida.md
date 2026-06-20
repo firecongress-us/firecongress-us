@@ -1,5 +1,5 @@
 ---
-title: "Rep. Debbie Wasserman Schultz (D-FL): Repeated STOCK Act Violations Include Oil Company Stock Held While Serving on Energy Appropriations Subcommittee"
+title: "Rep. Debbie Wasserman Schultz (D-FL): Repeated STOCK Act Violations Include Oil Company Stock Held While Serving on House Appropriations Committee"
 date: 2026-06-15
 party: D
 state: FL
@@ -20,10 +20,10 @@ sources:
     label: OpenSecrets — Fourth STOCK Act violation report (July 2025)
   - url: https://resistthemainstream.com/dem-rep-faces-scrutiny-after-quiet-move-raises-red-flags/
     label: Resist the Mainstream — New Gold trade; only member of Congress to purchase the stock
-summary: "Rep. Wasserman Schultz has violated federal stock disclosure law at least four documented times, including an oil company trade while serving on the House Energy Appropriations subcommittee."
+summary: "Rep. Wasserman Schultz has violated federal stock disclosure law at least four documented times, including an oil company trade while serving on the House Appropriations Committee."
 ---
 
-Representative Debbie Wasserman Schultz of Florida has violated the federal STOCK Act at least four documented times, according to reporting by OpenSecrets and Raw Story. The law requires members of Congress to report personal stock trades within 45 days. Her most recent documented violation involved a Canadian gold mining company purchased in February 2024 that she did not disclose for more than 14 months, by which point the stock had appreciated 313 percent. A prior violation involved the sale of shares in a Houston-based crude oil company at a time when she serves on the House Appropriations subcommittee that funds energy programs.
+Representative Debbie Wasserman Schultz of Florida has violated the federal STOCK Act at least four documented times, according to reporting by OpenSecrets and Raw Story. The law requires members of Congress to report personal stock trades within 45 days. Her most recent documented violation involved a Canadian gold mining company purchased in February 2024 that she did not disclose for approximately 16 months, by which point the stock had appreciated 313 percent. A prior violation involved the sale of shares in a Houston-based crude oil company at a time when she serves on the House Appropriations Committee.
 
 ## What the STOCK Act Requires
 
@@ -33,13 +33,13 @@ The Stop Trading on Congressional Knowledge Act, passed in 2012, requires member
 
 In October 2022, a dependent family member of Wasserman Schultz sold shares in Adams Resources and Energy. That transaction was not reported to Congress until July 11, 2023, approximately seven months past the required 45-day window, according to a Raw Story investigation. The trade was valued between $1,001 and $15,000. Adams Resources and Energy is a Houston, Texas-based company whose GulfMark Energy subsidiary purchases and markets approximately 95,000 barrels of crude oil per day at the wellhead, operating terminals across Texas, Oklahoma, North Dakota, Michigan, and Louisiana.
 
-In February 2024, Wasserman Schultz purchased shares of New Gold Inc., a Canadian mining company with operations in British Columbia and Ontario. That purchase was not disclosed until July 1, 2025, more than 14 months after the 45-day window had closed, according to Finbold and OpenSecrets. The position was valued between $1,001 and $15,000 at the time of purchase. Between her purchase date and the disclosure date, New Gold's stock rose approximately 313 percent, compared to a broader market gain of roughly 22 percent over the same period. According to Quiver Quantitative, which tracks congressional trading activity, she is the only member of Congress on record as having purchased shares in New Gold.
+In February 2024, Wasserman Schultz purchased shares of New Gold Inc., a Canadian mining company with operations in British Columbia and Ontario. That purchase was not disclosed until July 1, 2025, approximately 16 months after the 45-day window had closed, according to Finbold and OpenSecrets. The position was valued between $1,001 and $15,000 at the time of purchase. Between her purchase date and the disclosure date, New Gold's stock rose approximately 313 percent, compared to a broader market gain of roughly 22 percent over the same period. According to Quiver Quantitative, which tracks congressional trading activity, she is the only member of Congress on record as having purchased shares in New Gold.
 
 Raw Story and OpenSecrets have documented at least two additional STOCK Act violations in 2021 and 2024. The 2021 violation involved late disclosure of stock purchases in a telecommunications company. The 2024 violation involved a dependent family member's stock sale disclosed approximately six months late.
 
 ## Committee Role and the Energy Stock
 
-Wasserman Schultz currently serves on the House Appropriations Committee, including the Energy and Water Development and Related Agencies Subcommittee. That subcommittee shapes federal appropriations for the Department of Energy, Army Corps of Engineers civil works programs, and related agencies.
+Wasserman Schultz currently serves on the House Appropriations Committee, including the Military Construction, Veterans Affairs, and Related Agencies Subcommittee. The full Appropriations Committee has broad jurisdiction over federal discretionary spending, including areas that may overlap with industries represented by a member's personal investment holdings.
 
 Adams Resources and Energy, whose shares were disclosed seven months late, is a crude oil marketing and transportation company with operations across major U.S. energy basins including the Gulf Coast, Eagle Ford Shale, Permian Basin, and Bakken Shale.
 
