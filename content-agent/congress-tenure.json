@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18",
+  "updated": "2026-07-16",
   "note": "Top 50 currently serving members by continuous congressional service. 'since' = first year of continuous congressional service (counting across chamber switches). Sources: Quorum.us 2025 ranking, Wikipedia House/Senate seniority pages, Senate.gov longest-serving senators.",
   "members": [
     { "name": "Chuck Grassley",      "party": "R", "state": "IA", "chamber": "Senate", "since": 1975 },
@@ -29,7 +29,6 @@
     { "name": "Frank Lucas",         "party": "R", "state": "OK", "chamber": "House",  "since": 1994 },
     { "name": "Zoe Lofgren",         "party": "D", "state": "CA", "chamber": "House",  "since": 1995 },
     { "name": "Roger Wicker",        "party": "R", "state": "MS", "chamber": "Senate", "since": 1995 },
-    { "name": "Lindsey Graham",      "party": "R", "state": "SC", "chamber": "Senate", "since": 1995 },
     { "name": "Lloyd Doggett",       "party": "D", "state": "TX", "chamber": "House",  "since": 1995 },
     { "name": "Susan Collins",       "party": "R", "state": "ME", "chamber": "Senate", "since": 1997 },
     { "name": "Jim McGovern",        "party": "D", "state": "MA", "chamber": "House",  "since": 1997 },
