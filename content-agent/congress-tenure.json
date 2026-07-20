@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18",
+  "updated": "2026-07-20",
   "note": "Top 50 currently serving members by continuous congressional service. 'since' = first year of continuous congressional service (counting across chamber switches). Sources: Quorum.us 2025 ranking, Wikipedia House/Senate seniority pages, Senate.gov longest-serving senators.",
   "members": [
     { "name": "Chuck Grassley",      "party": "R", "state": "IA", "chamber": "Senate", "since": 1975 },
@@ -20,6 +20,7 @@
     { "name": "Jack Reed",           "party": "D", "state": "RI", "chamber": "Senate", "since": 1991 },
     { "name": "Jerry Nadler",        "party": "D", "state": "NY", "chamber": "House",  "since": 1992 },
     { "name": "Patty Murray",        "party": "D", "state": "WA", "chamber": "Senate", "since": 1993 },
+    { "name": "Bennie Thompson",     "party": "D", "state": "MS", "chamber": "House",  "since": 1993 },
     { "name": "Sanford Bishop",      "party": "D", "state": "GA", "chamber": "House",  "since": 1993 },
     { "name": "Jim Clyburn",         "party": "D", "state": "SC", "chamber": "House",  "since": 1993 },
     { "name": "Ken Calvert",         "party": "R", "state": "CA", "chamber": "House",  "since": 1993 },
