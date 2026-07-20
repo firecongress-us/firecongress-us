@@ -1,7 +1,7 @@
 {
-  "next_party": "R",
-  "covered": ["Cory Mills", "Henry Cuellar", "Tommy Tuberville", "Richard Neal", "Ted Cruz", "Chuck Schumer", "John Cornyn", "Josh Gottheimer", "Rick Scott", "Scott Peters"],
-  "last_run": "2026-06-18",
+  "next_party": "D",
+  "covered": ["Cory Mills", "Henry Cuellar", "Tommy Tuberville", "Richard Neal", "Ted Cruz", "Chuck Schumer", "John Cornyn", "Josh Gottheimer", "Rick Scott", "Scott Peters", "Steve Scalise"],
+  "last_run": "2026-07-20",
   "total_dem": 5,
-  "total_rep": 5
+  "total_rep": 6
 }
