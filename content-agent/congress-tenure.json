@@ -30,7 +30,6 @@
     { "name": "Frank Lucas",         "party": "R", "state": "OK", "chamber": "House",  "since": 1994 },
     { "name": "Zoe Lofgren",         "party": "D", "state": "CA", "chamber": "House",  "since": 1995 },
     { "name": "Roger Wicker",        "party": "R", "state": "MS", "chamber": "Senate", "since": 1995 },
-    { "name": "Lindsey Graham",      "party": "R", "state": "SC", "chamber": "Senate", "since": 1995 },
     { "name": "Lloyd Doggett",       "party": "D", "state": "TX", "chamber": "House",  "since": 1995 },
     { "name": "Susan Collins",       "party": "R", "state": "ME", "chamber": "Senate", "since": 1997 },
     { "name": "Jim McGovern",        "party": "D", "state": "MA", "chamber": "House",  "since": 1997 },
