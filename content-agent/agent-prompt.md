@@ -112,10 +112,10 @@ If you cannot find reliable current data for all 50, update as many as you can v
 **Step 7 — Update state**
 
 Update `content-agent/state.json`:
-- Flip `next_party` (D→R or R→D)
 - Add the person's full name to `covered`
 - Set `last_run` to today's date (YYYY-MM-DD)
 - Increment `total_dem` or `total_rep`
+- Set `next_party` to whichever party now has the lower count. If the counts are equal, flip from the current value (D→R or R→D).
 
 **Step 7 — Commit and open a PR**
 

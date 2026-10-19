@@ -13,7 +13,8 @@ mkdir -p "$LOG_DIR"
 echo "[$(date)] Starting fact-check agent..." | tee "$LOG_FILE"
 
 cd "$REPO"
-git pull --rebase origin master >> "$LOG_FILE" 2>&1
+git checkout master >> "$LOG_FILE" 2>&1
+git pull --ff-only origin master >> "$LOG_FILE" 2>&1
 
 claude \
   --print \
