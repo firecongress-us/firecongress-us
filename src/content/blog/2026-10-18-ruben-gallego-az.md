@@ -6,7 +6,7 @@ state: AZ
 chamber: Senate
 tags: [crypto, campaign-finance, super-pacs, stock-act, banking-committee]
 sources:
-  - url: https://www.opensecrets.org/search?q=Ruben+Gallego
+  - url: https://www.opensecrets.org/profiles/ruben-gallego
     label: "OpenSecrets: Ruben Gallego campaign finance profile"
   - url: https://influence.citationneeded.news/states/arizona
     label: "Follow the Crypto: crypto super PAC spending in Arizona, 2024"
